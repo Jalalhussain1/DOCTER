@@ -1,20 +1,23 @@
 import { ShieldCheck } from 'lucide-react';
+import img13 from '../../assets/img13.svg';
 
 const ProcessCard = ({ title, description }) => {
   return (
-    <div className="relative bg-white p-8 rounded-xl shadow-sm overflow-hidden transition-transform duration-200 group">
-      {/* Hover Background */}
-      <div className="absolute inset-0 bg-[#021a46] transform scale-0 group-hover:scale-100 origin-top-left transition-transform duration-300"></div>
-      
-      {/* Card Content */}
-      <div className="relative z-10 text-start text-black group-hover:text-white transition-colors duration-200">
-        <div className="flex justify-start">
-          <div className="bg-[#E6F7F7] p-6 rounded-full mb-8 group-hover:bg-white transition-colors duration-200">
-            <ShieldCheck className="w-8 h-8 text-[#4CC3C3] group-hover:text-[#0B1C39] transition-colors duration-200" />
+    <div>
+      <div className="relative bg-white p-8 rounded-xl shadow-sm overflow-hidden transition-transform duration-200 group">
+        {/* Hover Background */}
+        <div className="absolute inset-0 bg-[#021a46] transform scale-0 group-hover:scale-100 origin-top-left transition-transform duration-300"></div>
+        
+        {/* Card Content */}
+        <div className="relative z-10 text-start text-black group-hover:text-white transition-colors   duration-200">
+          <div className="flex justify-start">
+            <div className="bg-[#E6F7F7] p-6 rounded-full mb-8 group-hover:bg-white transition-colors duration-200">
+              <ShieldCheck className="w-8 h-8 text-[#4CC3C3] group-hover:text-[#0B1C39] transition-colors duration-200" />
+            </div>
           </div>
+          <h3 className="text-xl font-semibold mb-8 text-start">{title}</h3>
+          <p className="text-start leading-relaxed">{description}</p>
         </div>
-        <h3 className="text-xl font-semibold mb-8 text-start">{title}</h3>
-        <p className="text-start leading-relaxed">{description}</p>
       </div>
     </div>
   );
@@ -55,16 +58,15 @@ const BillingProcess = () => {
   ];
 
   return (
-    <div className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+    <div className="relative bg-gray-100 py-16 px-6 sm:px-6 lg:px-8">
+     
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1B3B5A] mb-4">
-            Our Internal Medicine Billing Process
+          Comprehensive Nephrology Billing Solutions
           </h2>
-          <p className="text-gray-600 text-lg">
-            The key steps involved in our medicine billing process are –
-          </p>
+          
         </div>
 
         {/* Process Cards */}
@@ -82,4 +84,4 @@ const BillingProcess = () => {
   );
 };
 
-export default BillingProcess
+export default BillingProcess;

@@ -26,34 +26,34 @@ const ProcessCard = ({ title, description }) => {
 const BillingProcess = () => {
   const processes = [
     {
-      title: "Compliance",
+      title: "Requirement Analysis",
       description:
-        "We ensure your revenue cycle management is always secure and compliant."
+        "Thoroughly examine the client's organizational requirements, ensuring all specifications are clearly understood and documented."
     },
     {
-      title: "Regular QA Check",
+      title: "Record Gathering",
       description:
-        "Our experts regularly update dermatology billing codes, ensuring accuracy and reliability."
+        "Securely receive medical billing records from the client through a compliant and encrypted channel for data protection."
     },
     {
-      title: "Strict Data Protection",
+      title: "Record Indexing",
       description:
-        "We follow strict parameters to secure your confidential patient information."
+        "Organize and sort medical billing records accurately based on the client's unique categorization preferences."
     },
     {
-      title: "Certified Coders",
+      title: "Validation",
       description:
-        "Our certified coders have in-depth knowledge about ICD-10, HCPCS, and other coding classifications."
+        "Carefully review each received record to confirm accuracy and compliance with billing standards and requirements."
     },
     {
-      title: "RCM",
+      title: "Claim Submission",
       description:
-        "We ensure effective billing that begins with patient registration & extends to payment posting."
+        "Confirm and input all claims into the billing software for processing, ensuring completeness and accuracy."
     },
     {
-      title: "Transparent Procedures",
+      title: "Analytical Reports",
       description:
-        "Experience unparalleled transparency and clarity in your dermatology medical billing system."
+        "Generate comprehensive final reports and securely deliver them to the client, meeting all agreed-upon timelines."
     }
   ];
 
@@ -64,7 +64,7 @@ const BillingProcess = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1B3B5A] mb-4">
-          Why Choose Us?
+          Comprehensive Nephrology Billing Solutions
           </h2>
           
         </div>
